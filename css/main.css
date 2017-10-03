@@ -2,6 +2,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+article .columnText {
+ column-counter:3;
+    column-width:6em;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
